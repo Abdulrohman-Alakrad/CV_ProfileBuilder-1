@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV_ProfileBuilder</title>
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+</head>
+<body >
+<div class="container">
+	<div class='menuBar'>
+
+		<ul>
+			<li><a href="#" class="active">HOME</a></li>
+			<li><a href="#">WORK SKILLS</a></li>
+			<li><a href="#">WORK EXPERINCE</a></li>
+			<li><a href="#">EDUCATION</a></li>
+			<li><a href="#">ABOUT US</a></li>
+		</ul>
+		
+	</div>
+
+	<div class="center" id='cente'><!--center -->
+		<div class="photo">
+			<img src="material.jpg" width="520px">
+		</div>
+		<div class="text">
+			<h1>Hello</h1>
+			<h2>I'm <strong>John doe</strong></h2>
+			<p>Web Developer and Designer</p>
+			 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt sddfut laoreet dolore magna aliquam erat volutpat.</p>
+			
+			<button id='btn'>Create Your Own CV</button>
+		</div>
+			
+	</div>
+
+	
+
+	<div class="form">
+		<form class="form-style-10" id="formm">
+		<div id = "contactDiv">
+			<h3>Contact Info:</h3><br>
+			First name:
+	  	<input type="text" id="firstname" placeholder = "Ahmad" required>
+	  	Last name:
+	  	<input type="text" id="lastname" placeholder = "Al Ahmad" required>
+	  	Phone Number:
+	  	<input type="tel" id="phoneNumber" pattern="[0-9]{14}" placeholder = "+962780045533" required>
+	  	Email:
+	  	<input type="email" id="email" placeholder = "example@company.com" required>
+	  	Curent Address:
+	  	<input type="text" id="address" placeholder = "Address" required>
+		</div>
+
+		<div id = "AboutDiv">
+			<h3>summary:</h3><br>
+			Summary About you:
+			<textarea id="summary" placeholder = "Brief description about you ...." required></textarea>
+		</div>
+
+		<div id = "skillsDiv">
+			<h3>Skills:</h3><br>
+			Skill Name:
+	  	<input type="text" id="skillName1" class='skillsN'placeholder = "javascript" required>
+	  	Your prof percent:
+	  	<input type="number" id="skillPercent1" class='skillsP'placeholder = "80"  step ="10" min="0" max="100">
+	  	<br>
+		</div>
+		<em id = skillAlert>The maximum number is 3 </em><br>
+		<input type="button" id="addSkills" value="+"><br><br><br>
+
+		<div id = "workDiv">
+			<h3>Work Experience:</h3><br>
+			Job Title:
+	  	<input type="text" id="job1" class='jobsT' placeholder = "Web Full Stack" required>
+	  	Job Company:
+	  	<input type="text" id="company1" placeholder = "Google" required>
+	  	Date From/to:<br>
+	  	From:
+	  	<input type="date" id="jobDateF1" placeholder = "03/02/2019" required>
+	  	To:
+	  	<input type="date" id="jobDateTo1" placeholder = "03/28/2019" required>
+		</div>
+	  <em id = workAlert>The maximum number is 3 </em><br>
+		<input type="button" id="addJob" value="+"><br><br><br>
+
+		<div id = "eduDiv">
+			<h3>Education:</h3><br>
+			Major:
+	  	<input type="text" id="Major1" class='eduMajor' placeholder = "Computer Engineer" required>
+	  	University:
+	  	<input type="text" id="Univercity1" placeholder = "Jordanian university" required>
+	  	Date:
+	  	<input type="date" id="date1" placeholder = "03/28/2019" required>	
+		</div>
+	  <em id = eduAlert>The maximum number is 3 </em><br>
+		<input type="button" id="addEdu" value="+"><br><br><br>
+
+
+		<div id = "hobbiesDiv">
+			<h3>Hobbies:</h3><br>
+			Hobby Name:
+	  	<input type="text" id="hobby1" class='hobbyC' placeholder = "Football" required>
+		</div>
+	  <em id = hobbyAlert>The maximum number is 3 </em><br>
+	  <input type="button" id="addHobby" value="+"><br><br><br>
+
+
+
+		<input type="submit" id="submit1" value="Submit">
+		<input type="reset" id="reset" value="Reset">
+
+</form>
+		<!-- <div class=''>
+			<button onclick="javascript:window.print()" class="printBtn">Print CV</button>
+			<img  class= 'cv-img'src="https://image.freepik.com/free-vector/curriculum-template-with-flat-design_23-2147820128.jpg">
+		</div> -->
+				
+	</div><!-- the end of Form Div -->
+
+	<div id="form1">
+		<input type="button" id="printing" value="print"><br><br><br>
+	<div id = "profile2">
+
+		<img id ='img' src="aa.png" >
+
+		<label id='nameText'>Qusai Qusai</label>
+		<label id='jobTitle'>GRAPHIC DESIGNER</label>
+
+		<p id='summaryText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+		sed do eiusmod tempor incididunt ut labore et ipsum 
+		dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+		tempor incididunt ut labore et dolore</p>
+
+		<label id="emailText">Tayamiass@gmail.Com</label>
+		<label id="phoneText">999 999 999</label>
+		<label id="addText">Amman Kalda</label>
+		<label id="skillsContent">SKILLS</label>
+
+		
+			<ol id="skillItem">
+				<li>Web design </li> 
+			</ol>
+			
+			<ol id="worksItemT">
+				<li>works</li> <br>
+				<label>sdfz zzf dfadfs dxdvg</label>
+				<br>
+			</ol>
+			<ol id="worksDateT">
+				<li>2015</li> <br>
+				<li>2017</li> 
+			</ol>
+
+
+			<ol id="eduItemT">
+				<li>works</li> <br>
+				<label>sdfz zzf dfadfs dxdvg</label>
+				<br>
+			</ol>
+			<ol id="eduDateT">
+				<li>2015</li> <br><br>
+				
+			</ol>
+			<ol id="hobbyTT">
+				<li>2015</li> <br><br>
+				
+			</ol>
+		<label id='contactContent'>CONTACT</label>
+		<img id="icon1" src="li.png">
+		<img id="icon2" src="li.png">
+		<img id="icon3" src="li.png">
+		<img id="iconEmail" src="email.png">
+		<img id="iconPhone" src="pho.png">
+		<img id="iconAddress" src="add.png">
+		
+		<img class="headhh" id="headhh2" src="h1.png">
+		<img class="headhh" id="headhh1" src="h3.png">
+		<img class="headhh" id="headhh3" src="h2.png">
+		
+	</div>
+
+ </div>
+
+</div> <!-- the end -->
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</html>
